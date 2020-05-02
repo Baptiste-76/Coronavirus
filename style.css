@@ -39,13 +39,16 @@ body {
 
     #phone {
         animation: turn 2s ease-in-out infinite;
+        -moz-animation: turn 2s ease-in-out infinite;
+        -o-animation: turn 2s ease-in-out infinite;
+        -webkit-animation: turn 2s ease-in-out infinite;
         color: #fff;
         text-shadow: 1px 1px 2px #000;
     }
 
     @keyframes turn {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(90deg); }
+        0% { transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); -webkit-transform: rotate(0deg); }
+        100% { transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); -webkit-transform: rotate(90deg); }
     }
 }
 
@@ -112,6 +115,10 @@ footer p {
 .image1 {
     grid-area: 2 / 5 / 9 / 9;
     transform: scale(0.70);
+    -moz-transform: scale(0.70);
+    -ms-transform: scale(0.70);
+    -o-transform: scale(0.70);
+    -webkit-transform: scale(0.70);
     position: relative;
     right: 200px;
 }
@@ -197,6 +204,10 @@ footer p {
 .image3 {
     grid-area: 8 / 12 / 14 / 16;
     transform: scale(0.70);
+    -moz-transform: scale(0.70);
+    -ms-transform: scale(0.70);
+    -o-transform: scale(0.70);
+    -webkit-transform: scale(0.70);
     position: relative;
     right: 200px;
 }
@@ -290,6 +301,10 @@ footer p {
 .image5 {
     grid-area: 13 / 5 / 20 / 9;
     transform: scale(0.70);
+    -moz-transform: scale(0.70);
+    -ms-transform: scale(0.70);
+    -o-transform: scale(0.70);
+    -webkit-transform: scale(0.70);
     position: relative;
     right: 200px;
 }
@@ -378,6 +393,10 @@ footer p {
 .image7 {
     grid-area: 19 / 12 / 24 / 16;
     transform: scale(0.70);
+    -moz-transform: scale(0.70);
+    -ms-transform: scale(0.70);
+    -o-transform: scale(0.70);
+    -webkit-transform: scale(0.70);
     position: relative;
     right: 200px;
     width: 900px;
@@ -477,6 +496,10 @@ footer p {
 .image9 {
     grid-area: 23 / 5 / 30 / 9;
     transform: scale(0.70);
+    -moz-transform: scale(0.70);
+    -ms-transform: scale(0.70);
+    -o-transform: scale(0.70);
+    -webkit-transform: scale(0.70);
     position: relative;
     right: 200px;
     width: 900px;
